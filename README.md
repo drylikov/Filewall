@@ -1,4 +1,3 @@
-
 ## Filewall
 
 **git + capistrano + shorewall = filewall**. it's what you want.
