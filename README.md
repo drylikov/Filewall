@@ -1,6 +1,6 @@
 ## Filewall
 
-**git + capistrano + shorewall = filewall**. it's what you want.
+**GIT + capistrano + shorewall = filewall**. it's what you want.
 
 Forget about statefully configured menu driven firewalls; filewall is a file-based firewall, and it's what you're looking for. With filewall, your firewall configuration is 100% defined in your filewall repository, aided by the trusty and flexible [shoreline firewall](http://www.shorewall.net/) system. Filewall uses [capistrano](http://www.capify.org/) to make and roll back changes to your live firewall configuration, mirroring the way you deploy changes to your webapps. Filewall lets your network configuration live where it belongs, in your git (or other scm) repository. 
  
