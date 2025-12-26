@@ -17,4 +17,3 @@ Filewall works happily with any Ubuntu or Debian machine. It's usually best to s
 
 In a nutshell, filewall installs the contents of the `rules/` subdirectory of your repository on a temporary basis, and provides you with a parachute to try these rules out safely. Included in this repository are two sample configuration branches, `one_interface` and `two_interface`. Both of these are taken near-verbatim from the respective examples in the shorewall documentation ([here](http://www.shorewall.net/standalone.htm) and [here](http://www.shorewall.net/two-interface.htm)). If your network config falls into one of those two categories, then those branches are a good starting point for customization. If not, then it probably makes the most sense to find a suitable configuration and start from there; filewall can do anything that shorewall can do. 
 
-
